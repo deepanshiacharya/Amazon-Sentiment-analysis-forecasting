@@ -1,0 +1,21 @@
+2025-05-07 17:46:16,257 - INFO - Starting inference on test data...
+2025-05-07 17:46:16,261 - WARNING - Skipping line with missing 'label': {"id": 1893, "text": "I\u2019m useally really good at putting on screen protectors. Never have any bubbles or problems. But I definitely struggled with these. I definitely don\u2019t recommend these. I put it on a few days ago and the the protector is already cracked.", "rating": 1, "title": "Protected cracked after 1 week.", "asin": "B07JMVPXCX", "user_id": "AFA3MYPGPSMQRZPT2KF6BKUNAQ5Q", "timestamp": "2019-11-23T03:54:12", "helpful_vote": 0, "verified_purchase": true, "year": 2019, "rid": "cddca9c231c79af8b5003073701bbf0d7a04f476e54d5f72200fc9679306147c", "label": [], "Comments": []}
+2025-05-07 17:46:16,262 - WARNING - Skipping line with missing 'label': {"id": 2033, "text": "Great case I had one on my  Samsung S5, got a  new phone and ordered this case for my Samsung S7..", "rating": 5, "title": "Great case I had one on my Samsung S5", "asin": "B01BLEWFWO", "user_id": "AGO6R6BQXHV2AOYINXKGW4BADY4Q", "timestamp": "2018-02-23T19:35:06", "helpful_vote": 0, "verified_purchase": true, "year": 2018, "rid": "c721dc810786eac0ddbc730a686823733dc4bf0f1a5c440a9a83bae6700e8e2e", "label": [], "Comments": []}
+2025-05-07 17:46:28,701 - INFO - Accuracy: 0.6105
+2025-05-07 17:46:28,702 - INFO - Precision: 0.7361
+2025-05-07 17:46:28,702 - INFO - Recall: 0.6105
+2025-05-07 17:46:28,702 - INFO - F1 Score: 0.6441
+2025-05-07 17:46:28,702 - INFO - 
+Classification Report:
+              precision    recall  f1-score   support
+
+    Negative       0.47      0.73      0.57       352
+     Neutral       0.22      0.35      0.27       232
+    Positive       0.95      0.63      0.76      1013
+
+    accuracy                           0.61      1597
+   macro avg       0.54      0.57      0.53      1597
+weighted avg       0.74      0.61      0.64      1597
+
+2025-05-07 17:46:28,919 - INFO - Confusion matrix saved to /teamspace/studios/this_studio/Final_pipeline/test/confusion_matrix_02.png
+2025-05-07 17:46:28,919 - INFO - Inference and evaluation complete.
